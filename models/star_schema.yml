@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: fact_sales
+    description: "A starter dbt model"
+    columns:
+      - name: order_number
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: dim_customers
+    description: "A starter dbt model"
+    columns:
+      - name: customer_key
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: dim_product
+    description: "A starter dbt model"
+    columns:
+      - name: product_number
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null          
