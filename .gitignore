@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 
 target/
 dbt_packages/
 logs/
+=======
+*.duckdb
+*.csv
+__pycache__/
+.env
+>>>>>>> 1c3c6983c958fe559d9bdd7b7b613d294db53525
